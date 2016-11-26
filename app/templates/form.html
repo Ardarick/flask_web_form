@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Input form</title>
+<form method=post>
+    <dl>
+        {{ form.name.label }}
+        {{ form.name }}
+    </dl>
+    <p><input type=submit value=Submit>
+</form>
+
+<ul>
+    {% for record in records %}
+        <li>
+            {{ record.name }} {{ record.creation_date }}
+        </li>
+    {% endfor %}
+</ul>
