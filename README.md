@@ -1,4 +1,8 @@
 # flask_web_form
 Test exercise for skytracking
 
-Run app/run.py and app/tasks.py.
+
+Start:  
+1). set PYTHONPATH =.
+2). python app/run.py 
+3). python app/tasks.py
